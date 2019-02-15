@@ -1,0 +1,27 @@
+S1: grid is 7 x 5, and has 35 intersections
+S1: of 140 possibilities, 37 of them cannot be used
+S1: total cost of remaining possibilities is 2115 seconds
+S1: 2 grid locations supplied, first one is 3d,	last one is 6b
+
+S2: start at grid 3d, cost of 0
+S2:       then to 3c, cost of 17
+S2:       then to 4c, cost of 40
+S2:       then to 4b, cost of 55
+S2:       then to 5b, cost of 63
+S2:       then to 6b, cost of 80
+
+S3:        0        1        2        3        4        5        6
+S3:   +----+--------+--------+--------+--------+--------+--------+
+S3: a |  113       83       62 <<<<  51       56       33 <<<<  12
+S3:   |    ^        ^                 ^        ^                 ^
+S3:   |    ^        ^                 ^        ^                 ^
+S3: b |   82       62 <<<<  44 <<<<  34       40 <<<<  18 <<<<   0
+S3:   |    ^                          ^                 v        v
+S3:   |    ^                          ^                 v        v
+S3: c |   80 <<<<  49 <<<<  27 <<<<  17       38 <<<<  27       22
+S3:   |                               ^                 v        v
+S3:   |                               ^                 v        v
+S3: d |   72       56       11 <<<<   0 >>>>  34       35       51
+S3:   |    ^        ^                 v                 v         
+S3:   |    ^        ^                 v                 v         
+S3: e |   57 <<<<  44 <<<<  34 <<<<  12 >>>>  56       53 >>>>  64

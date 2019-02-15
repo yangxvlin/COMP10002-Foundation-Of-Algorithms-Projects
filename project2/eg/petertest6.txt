@@ -1,0 +1,23 @@
+S1: grid is 3 x 3, and has 9 intersections
+S1: of 36 possibilities, 14 of them cannot be used
+S1: total cost of remaining possibilities is 43 seconds
+S1: 3 grid locations supplied, first one is 0a,	last one is 2a
+
+S2: start at grid 0a, cost of 0
+S2:       then to 1a, cost of 1
+S2:       then to 2a, cost of 2
+S2:       then to 2b, cost of 4
+S2:       then to 2c, cost of 5
+S2: start at grid 0a, cost of 0
+S2:       then to 1a, cost of 1
+S2:       then to 2a, cost of 2
+
+S3:        0        1        2
+S3:   +----+--------+--------+
+S3: a |    0 >>>>   1        0
+S3:   |             v        v
+S3:   |             v        v
+S3: b |    3 <<<<   2        2
+S3:   |    v                  
+S3:   |    v                  
+S3: c |    4 >>>>   5        0

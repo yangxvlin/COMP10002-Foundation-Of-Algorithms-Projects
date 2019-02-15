@@ -1,0 +1,48 @@
+S1: grid is 7 x 5, and has 35 intersections
+S1: of 140 possibilities, 37 of them cannot be used
+S1: total cost of remaining possibilities is 2115 seconds
+S1: 4 grid locations supplied, first one is 6a,	last one is 0e
+
+S2: start at grid 6a, cost of 0
+S2:       then to 6b, cost of 11
+S2:       then to 5b, cost of 29
+S2:       then to 4b, cost of 51
+S2:       then to 4a, cost of 67
+S2:       then to 3a, cost of 78
+S2:       then to 2a, cost of 89
+S2:       then to 1a, cost of 111
+S2:       then to 0a, cost of 152
+S2: start at grid 6a, cost of 0
+S2:       then to 6b, cost of 11
+S2:       then to 5b, cost of 29
+S2:       then to 5c, cost of 38
+S2:       then to 5d, cost of 46
+S2:       then to 5e, cost of 64
+S2:       then to 6e, cost of 75
+S2: start at grid 6a, cost of 0
+S2:       then to 6b, cost of 11
+S2:       then to 5b, cost of 29
+S2:       then to 5c, cost of 38
+S2:       then to 4c, cost of 49
+S2:       then to 3c, cost of 75
+S2:       then to 3d, cost of 85
+S2:       then to 3e, cost of 97
+S2:       then to 2e, cost of 119
+S2:       then to 1e, cost of 129
+S2:       then to 0e, cost of 142
+
+S3:        0        1        2        3        4        5        6
+S3:   +----+--------+--------+--------+--------+--------+--------+
+S3: a |    0 >>>>   9 >>>>  19 >>>>  28 >>>>  34       21 <<<<   0
+S3:   |             v                 v        v                 v
+S3:   |             v                 v        v                 v
+S3: b |   31       32 >>>>  49       40       46       29 <<<<  11
+S3:   |    ^                          v                 v         
+S3:   |    ^                          v                 v         
+S3: c |   29 >>>>  38       42       50       49 <<<<  38       32
+S3:   |    ^                 ^                                   ^
+S3:   |    ^                 ^                                   ^
+S3: d |   15       29       25 >>>>  43 >>>>  77       32 <<<<  10
+S3:   |    ^        ^        ^                                   ^
+S3:   |    ^        ^        ^                                   ^
+S3: e |    0 >>>>  17 >>>>  22 >>>>  43 >>>>  87       17 <<<<   0

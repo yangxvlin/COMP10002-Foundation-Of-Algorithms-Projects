@@ -1,0 +1,121 @@
+S1: grid is 3 x 26, and has 78 intersections
+S1: of 312 possibilities, 154 of them cannot be used
+S1: total cost of remaining possibilities is 158 seconds
+S1: 3 grid locations supplied, first one is 0a,	last one is 2z
+
+S2: start at grid 0a, cost of 0
+S2:       then to 1a, cost of 1
+S2:       then to 1b, cost of 2
+S2:       then to 1c, cost of 3
+S2:       then to 1d, cost of 4
+S2:       then to 1e, cost of 5
+S2:       then to 1f, cost of 6
+S2:       then to 1g, cost of 7
+S2:       then to 1h, cost of 8
+S2: start at grid 0a, cost of 0
+S2:       then to 0b, cost of 1
+S2:       then to 0c, cost of 2
+S2:       then to 0d, cost of 3
+S2:       then to 0e, cost of 4
+S2:       then to 0f, cost of 5
+S2:       then to 0g, cost of 6
+S2:       then to 0h, cost of 7
+S2:       then to 0i, cost of 8
+S2:       then to 0j, cost of 9
+S2:       then to 0k, cost of 10
+S2:       then to 0l, cost of 11
+S2:       then to 0m, cost of 12
+S2:       then to 0n, cost of 13
+S2:       then to 0o, cost of 14
+S2:       then to 0p, cost of 15
+S2:       then to 0q, cost of 16
+S2:       then to 0r, cost of 17
+S2:       then to 0s, cost of 18
+S2:       then to 0t, cost of 19
+S2:       then to 0u, cost of 20
+S2:       then to 0v, cost of 21
+S2:       then to 0w, cost of 22
+S2:       then to 0x, cost of 23
+S2:       then to 0y, cost of 24
+S2:       then to 0z, cost of 25
+S2:       then to 1z, cost of 26
+S2:       then to 2z, cost of 27
+
+S3:        0        1        2
+S3:   +----+--------+--------+
+S3: a |    0 >>>>   1 >>>>   2
+S3:   |    v        v        v
+S3:   |    v        v        v
+S3: b |    1        2        3
+S3:   |    v        v        v
+S3:   |    v        v        v
+S3: c |    2        3        4
+S3:   |    v        v        v
+S3:   |    v        v        v
+S3: d |    3        4        5
+S3:   |    v                 v
+S3:   |    v                 v
+S3: e |    4        3        6
+S3:   |    v        ^        v
+S3:   |    v        ^        v
+S3: f |    5        2        7
+S3:   |    v        ^        v
+S3:   |    v        ^        v
+S3: g |    6        1        8
+S3:   |    v        ^        v
+S3:   |    v        ^        v
+S3: h |    7        0        9
+S3:   |    v        v        v
+S3:   |    v        v        v
+S3: i |    8        1       10
+S3:   |    v        v        v
+S3:   |    v        v        v
+S3: j |    9        2       11
+S3:   |    v        v        v
+S3:   |    v        v        v
+S3: k |   10        3       12
+S3:   |    v        v        v
+S3:   |    v        v        v
+S3: l |   11        4       13
+S3:   |    v        v         
+S3:   |    v        v         
+S3: m |   12        5       13
+S3:   |    v        v        ^
+S3:   |    v        v        ^
+S3: n |   13        6       12
+S3:   |             v        ^
+S3:   |             v        ^
+S3: o |   13        7       11
+S3:   |    ^        v        ^
+S3:   |    ^        v        ^
+S3: p |   12        8       10
+S3:   |    ^        v        ^
+S3:   |    ^        v        ^
+S3: q |   11        9        9
+S3:   |    ^                 ^
+S3:   |    ^                 ^
+S3: r |   10        9        8
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: s |    9        8        7
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: t |    8        7        6
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: u |    7        6        5
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: v |    6        5        4
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: w |    5        4        3
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: x |    4        3        2
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: y |    3        2        1
+S3:   |    ^        ^        ^
+S3:   |    ^        ^        ^
+S3: z |    2 <<<<   1 <<<<   0

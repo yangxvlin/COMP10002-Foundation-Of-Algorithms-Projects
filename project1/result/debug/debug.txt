@@ -1,0 +1,8 @@
+#define DEBUG 0
+#define DUMP_INT 1
+#define DUMP_STR ""
+#if DEBUG
+#define DUMP_DBL(x) printf("line %d: %s = %.5f\n", __LINE__, #x, x)
+#else
+#define DUMP_DBL(x)
+#endif
